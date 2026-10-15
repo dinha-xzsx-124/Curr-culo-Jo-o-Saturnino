@@ -1,0 +1,121 @@
+.lateral {
+    width: 30%;
+    padding: 30px;
+    background-color: #0e0a75;
+    color: white;
+    text-align: center;
+    border-radius: 55px;
+}
+.foto img{
+
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 20px;
+    background-color: white;
+    color: #113aa0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    box-shadow: rgb(35, 187, 229);
+
+}
+
+.lateral h2{
+   
+    margin: 30px 0 15px;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(53, 62, 179);
+    padding-bottom: 8px;
+
+}
+
+.curriculo {
+   
+    display: flex;
+
+}
+
+.conteudo {
+   
+    width: 60%;
+    padding: 40px;
+
+}
+
+.conteudo h1 {
+
+    color: #0a15b8;
+    border-bottom: 2px solid rgb(14, 81, 154);
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+
+}
+
+.conteudo h2 {
+
+    color: #053e89;
+    border-bottom: 2px solid rgb(16, 82, 169);
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+
+}
+
+.conteudo p {
+
+    color: #203047;
+
+}
+.conteudo span{
+
+    color: #00aaff;
+
+}
+
+.conteudo section {
+
+    margin-bottom: 30px;
+
+}
+
+.conteudo h2{
+
+    color: #0004f1;
+    border-bottom: 2px solid #0e6eaa;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+
+}
+
+.item span {
+
+    color: #3c6796;
+    font-size: 14px;
+
+}
+
+body{
+  
+    background-color: #64bde3;
+    text-align: justify;
+
+}
+
+@media (max-width: 700px) {
+
+.curriculo {
+
+flex-direction: column;
+
+}
+
+.lateral, 
+.conteudo {
+
+width: 100%;
+
+}
+
+}
